@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.eunice.accountant.TrackingActivity">
+
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="@string/how_much_do_you_spend_daily"-->
+<!--android:layout_marginRight="30dp"-->
+<!--android:layout_marginLeft="30dp"-->
+<!--android:layout_marginBottom="30dp"-->
+<!--android:layout_marginTop="60dp"-->
+<!--android:padding="10dp"-->
+<!--android:textSize="22sp"-->
+<!--android:layout_centerHorizontal="true"-->
+<!--android:textColor="@color/colorPrimary"-->
+<!--android:textStyle="italic"-->
+<!--style="@style/Base.TextAppearance.AppCompat.Title"/>-->
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daily_plan"
+            android:textSize="30sp"
+            android:id="@+id/time_plan"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:fontFamily="cursive"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            />
+    </android.support.v7.widget.Toolbar>
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="200dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_annual_income"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/normal_income"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"/>
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="250dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_account_balance_presently"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/account_balance_presently"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"/>
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="300dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount_planned_to_save"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/amount_to_save"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"/>
+</android.support.design.widget.TextInputLayout>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="400dp"
+    android:layout_marginLeft="260dp"
+    android:layout_marginRight="20dp"
+    android:text="@string/next_button"
+    android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+    android:textSize="22sp"
+    android:id="@+id/next_button_plan"
+    style="@style/Base.TextAppearance.AppCompat.Button"
+    android:textStyle="italic"
+    android:fontFamily="sans-serif"
+    android:textColor="@android:color/holo_blue_light"
+    android:drawableTint="@android:color/holo_blue_light"
+    android:background="@android:color/darker_gray"
+    tools:targetApi="m" />
+</RelativeLayout>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:text="Categories"
+                android:gravity="center_horizontal"
+                android:fontFamily="cursive"
+                tools:targetApi="jelly_bean"
+                android:textColor="#000"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="70dp"
+                android:weightSum="5">
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_restaurant_black_24dp"
+                    android:scaleType="center"
+                    android:layout_weight="1"
+                    android:background="#fa4"
+                    android:id="@+id/button_food"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:contentDescription="Food and Drinks" />
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_shop_black_24dp"
+                    android:scaleType="center"
+                    android:layout_weight="1"
+                    android:background="#466"
+                    android:id="@+id/button_clothes"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:contentDescription="Clothes and Accessories" />
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_smartphone_black_24dp"
+                    android:scaleType="center"
+                    android:layout_weight="1"
+                    android:background="#aca"
+                    android:id="@+id/button_phones"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:contentDescription="Laptops, Phones and accessories" />
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_directions_bus_black_24dp"
+                    android:scaleType="center"
+                    android:layout_weight="1"
+                    android:id="@+id/button_transport"
+                    android:background="#98a"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:contentDescription="Transportation" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_local_atm_black_24dp"
+                    android:scaleType="center"
+                    android:layout_weight="1"
+                    android:id="@+id/other_bought_items"
+                    android:background="#fff"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:contentDescription="Others" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:text="@string/enter_today_s_date"
+                android:textSize="15sp"
+                android:drawablePadding="2dp"
+                android:id="@+id/today_date"
+                android:textColor="#fff"
+                android:background="#3af"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:text="@string/add_to_bought_items"
+                android:textSize="17sp"
+                android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+                android:drawablePadding="5dp"
+                android:id="@+id/add_to_bought_items"
+                android:textStyle="italic"
+                android:textColor="@android:color/background_dark"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:useDefaultMargins="true"
+                android:layout_marginTop="250dp"
+                android:id="@+id/food_layout"
+                android:columnCount="3">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:id="@+id/bought_item_1"
+                    android:text="Photocopy"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    />
+                <TextView
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="NGN"
+                    android:textSize="13sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|center_vertical" />
+                <EditText
+                    android:layout_row="1"
+                    android:layout_column="2"
+                    android:id="@+id/price_1"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="35dp"
+                    android:textSize="14sp"
+                    android:layout_width="64dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:hint="@string/price" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/bought_item_2"
+                    android:text="INTECU"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="NGN"
+                    android:textSize="13sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|center_vertical" />
+                <EditText
+                    android:layout_row="2"
+                    android:layout_column="2"
+                    android:id="@+id/price_2"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="30dp"
+                    android:textSize="14sp"
+                    android:layout_width="64dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:hint="@string/price"
+                    android:layout_height="35dp"
+                    tools:targetApi="ice_cream_sandwich" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:id="@+id/bought_item_3"
+                    android:text="Dues"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="NGN"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_gravity="right|center_vertical" />
+                <EditText
+                    android:layout_row="3"
+                    android:layout_column="2"
+                    android:id="@+id/price_3"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="30dp"
+                    android:textSize="14sp"
+                    android:layout_width="64dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:hint="@string/price"
+                    android:layout_height="35dp"
+                    tools:targetApi="ice_cream_sandwich" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="0"
+                    android:id="@+id/bought_item_4"
+                    android:text="Detergents"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:text="NGN"
+                    android:textSize="13sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|center_vertical" />
+                <EditText
+                    android:layout_row="4"
+                    android:layout_column="2"
+                    android:id="@+id/price_4"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="30dp"
+                    android:textSize="14sp"
+                    android:layout_width="64dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:hint="@string/price"
+                    android:layout_height="35dp"
+                    tools:targetApi="ice_cream_sandwich" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="5"
+                    android:layout_column="0"
+                    android:id="@+id/bought_item_5"
+                    android:text="Printing"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:layout_row="5"
+                    android:layout_column="1"
+                    android:text="NGN"
+                    android:textSize="13sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|center_vertical" />
+                <EditText
+                    android:layout_row="5"
+                    android:layout_column="2"
+                    android:id="@+id/price_5"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="30dp"
+                    android:textSize="14sp"
+                    android:layout_width="64dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:hint="@string/price"
+                    android:layout_height="35dp"
+                    tools:targetApi="ice_cream_sandwich" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="6"
+                    android:layout_column="0"
+                    android:id="@+id/bought_item_6"
+                    android:text="Passport"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:layout_row="6"
+                    android:layout_column="1"
+                    android:text="NGN"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_gravity="right|center_vertical" />
+                <EditText
+                    android:layout_row="6"
+                    android:layout_column="2"
+                    android:id="@+id/price_6"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="30dp"
+                    android:textSize="14sp"
+                    android:layout_width="64dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:hint="@string/price"
+                    android:layout_height="35dp"
+                    tools:targetApi="ice_cream_sandwich" />
+
+            </GridLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="530dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/next_button"
+                android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+                android:textSize="18sp"
+                style="@style/Base.TextAppearance.AppCompat.Button"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif"
+                android:id="@+id/next_edit_bought"
+                android:textColor="@android:color/white"
+                android:drawableTint="@android:color/white"
+                android:background="#3af"
+                tools:targetApi="m" />
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

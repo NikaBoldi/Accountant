@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Set financial goals"/>
+    <item
+        android:title="Make spending list"/>
+    <item
+        android:title="Keep track of savings"/>
+
+
+
+</menu>

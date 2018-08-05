@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e5f"
+        android:fitsSystemWindows="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plans"
+            android:textSize="25sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            tools:targetApi="jelly_bean" />
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_yearly_plans"
+            android:textSize="22sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_monthly_plans"
+            android:textSize="22sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_weekly_plans"
+            android:textSize="22sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:id="@+id/view_daily_plans"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_daily_plans"
+            android:textSize="22sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

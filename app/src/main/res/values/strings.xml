@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Accountant</string>
+    <string name="First">How much did you spend today?</string>
+    <string name="next">NEXT</string>
+    <string name="username">Enter your email address</string>
+    <string name="sign">Sign in</string>
+    <string name="account">If you don\'t have an account,</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot">Forgot your Password?</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="spices">Condiments, Spices</string>
+    <string name="food">Food</string>
+    <string name="phone">Devices</string>
+    <string name="shopping">Shopping</string>
+    <string name="transport">Transport</string>
+    <string name="atm">ATM</string>
+    <string name="utensils">Utensils</string>
+    <string name="business">Business</string>
+    <string name="electronics">Electronics</string>
+    <string name="events">Events</string>
+    <string name="miscellaneous">Miscellaneous</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="time_values">
+        <item>Yearly</item>
+        <item>Monthly</item>
+        <item>Weekly</item>
+        <item>Per Semester</item>
+        <item>Per Session</item>
+    </string-array>
+    <string name="login_text">Login Page</string>
+    <string name="login">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot your password</string>
+    <string name="account_sign_up">and if you don\'t have an account,</string>
+    <string name="sign_up_name">Sign up</string>
+    <string name="your_username">Enter your username</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username_nickname">Username/Nickname</string>
+    <string name="email_address">Email Address</string>
+    <string name="save_text">How would you like to save?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_navigation">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="change_account_type">Change account type</string>
+    <string name="change_savings_time">Change savings time</string>
+    <string name="check_account_balance">Check account balance</string>
+    <string name="create_budget">Create a budget</string>
+    <string name="edit_spending">Edit spending</string>
+    <string name="sign_out">Sign out</string>
+    <string name="share">Share</string>
+    <string name="about_app">About app</string>
+    <string name="communicate">Communicate</string>
+    <string name="how_much_do_you_spend_daily">How much do you spend daily?</string>
+    <string name="enter_annual_income">Enter total income</string>
+    <string name="daily_plan">Daily Plan</string>
+    <string name="enter_account_balance_presently">Enter account balance presently</string>
+    <string name="amount_planned_to_save">Amount planned to save</string>
+    <string name="next_button">Next</string>
+    <string name="what_did_you_spend_on_today">What did you spend on today?</string>
+    <string name="bought_paid_items">Bought/Paid items</string>
+    <string name="amount_paid">Amount paid</string>
+    <string name="enter_what_you_bought">Enter what you bought</string>
+    <string name="price">Price</string>
+    <string name="what_is_today_s_date">What is today\'s date?</string>
+    <string name="enter_today_s_date">Enter today\'s date</string>
+    <string name="add_to_bought_items">Add to bought items</string>
+    <string name="your_current_account_balance_is">Your current account balance is:</string>
+    <string name="_12_345_67">#12,345.67</string>
+    <string name="the_total_amount_spent_today_is">The total amount spent today is:</string>
+    <string name="_1_200">#1,200</string>
+    <string name="clothes">Clothes</string>
+    <string name="_400">#400</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="edit_bought_items">Edit bought items</string>
+    <string name="time_plans">Time plans</string>
+    <string name="plans">Plans</string>
+    <string name="view_yearly_plans">View Yearly Plans</string>
+    <string name="view_monthly_plans">View Monthly Plans</string>
+    <string name="view_weekly_plans">View Weekly Plans</string>
+    <string name="view_daily_plans">View Daily Plans</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

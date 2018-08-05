@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "148212225321",
+    "firebase_url": "https://accountant-d14a5.firebaseio.com",
+    "project_id": "accountant-d14a5",
+    "storage_bucket": "accountant-d14a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148212225321:android:9f43ee41d8a6625a",
+        "android_client_info": {
+          "package_name": "com.example.eunice.accountant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148212225321-emvadnsuu360m9347s0rf7647ltsgbn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eunice.accountant",
+            "certificate_hash": "2e278f4d8fae0b4b3bbc10f95f36d6ea1ef157cb"
+          }
+        },
+        {
+          "client_id": "148212225321-uev70476fnka2jp9emef45uj6le87h9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAe2g2ANRWK7YecmFPCzsH-c6eLRnGBzk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148212225321-uev70476fnka2jp9emef45uj6le87h9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

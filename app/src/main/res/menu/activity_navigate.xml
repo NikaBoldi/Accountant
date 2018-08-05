@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Ways to save"/>
+    <item
+        android:title="Ways to earn money"/>
+    <item
+        android:title="Save for emergencies"/>
+</menu>

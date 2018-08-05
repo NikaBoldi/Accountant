@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:name="com.example.eunice.accountant.BoughtItemsFragment"
+    tools:context="com.example.eunice.accountant.FoodFragment"
+    tools:listitem="@layout/fragment_item">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               app:cardElevation="0dp"
+               app:cardCornerRadius="8dp"
+               app:contentPaddingTop="10dp"
+               app:contentPaddingBottom="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Food"
+                   android:textSize="23sp"
+                   android:textColor="@color/foodColor"
+                   android:drawableLeft="@drawable/ic_restaurant_24dp"
+                   android:drawablePadding="15dp"
+                   android:layout_marginLeft="5dp"
+                   android:fontFamily="serif"
+                   tools:targetApi="jelly_bean" />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Monday, 12/06/18"
+                       android:layout_marginLeft="10dp" />
+               <View
+                   android:layout_width="fill_parent"
+                   android:background="@android:color/darker_gray"
+                   android:layout_height="2dp" />
+               <ScrollView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <TableLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="15dp">
+                       <TableRow
+                           android:layout_weight="3"
+                           android:id="@+id/row1"
+                           android:orientation="horizontal">
+                           <TextView
+                               android:layout_weight="2.8"
+                               android:layout_height="wrap_content"
+                               android:text="Drink"
+                               android:layout_margin="2dp"
+                               android:textSize="17sp"
+                               android:fontFamily="sans-serif"
+                               tools:targetApi="jelly_bean" />
+                           <TextView
+                               android:layout_weight="0.2"
+                               android:layout_height="wrap_content"
+                               android:text="NGN"
+                               android:textSize="17sp"/>
+                           <TextView
+                               android:layout_weight="0.8"
+                               android:layout_height="wrap_content"
+                               android:text="500"
+                               android:textSize="17sp"/>
+
+                       </TableRow>
+                       <TableRow
+                           android:layout_weight="3"
+                           android:id="@+id/row2"
+                           android:orientation="horizontal">
+                           <TextView
+                               android:layout_weight="2.8"
+                               android:layout_height="wrap_content"
+                               android:text="Drink"
+                               android:textSize="17sp"
+                               android:layout_margin="2dp"
+                               android:fontFamily="sans-serif"
+                               tools:targetApi="jelly_bean" />
+                           <TextView
+                               android:layout_weight="0.2"
+                               android:layout_height="wrap_content"
+                               android:text="NGN"
+                               android:textSize="17sp"/>
+                           <TextView
+                               android:layout_weight="0.8"
+                               android:layout_height="wrap_content"
+                               android:text="500"
+                               android:textSize="17sp"/>
+
+                       </TableRow>
+                       <TableRow
+                           android:layout_weight="3"
+                           android:id="@+id/row3"
+                           android:orientation="horizontal">
+                           <TextView
+                               android:layout_weight="2.8"
+                               android:layout_height="wrap_content"
+                               android:text="Drink"
+                               android:layout_margin="2dp"
+                               android:textSize="17sp"
+                               android:fontFamily="sans-serif"
+                               tools:targetApi="jelly_bean" />
+                           <TextView
+                               android:layout_weight="0.2"
+                               android:layout_height="wrap_content"
+                               android:text="NGN"
+                               android:textSize="17sp"/>
+                           <TextView
+                               android:layout_weight="0.8"
+                               android:layout_height="wrap_content"
+                               android:text="500"
+                               android:textSize="17sp"/>
+
+                       </TableRow>
+
+                   </TableLayout>
+               </ScrollView>
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="8dp"
+                app:contentPaddingTop="10dp"
+                app:contentPaddingBottom="10dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shopping"
+                        android:textSize="23sp"
+                        android:textColor="@color/clothColor"
+                        android:drawableLeft="@drawable/ic_shopping"
+                        android:drawablePadding="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="serif"
+                        tools:targetApi="jelly_bean" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Monday, 12/06/18"
+                        android:layout_marginLeft="10dp" />
+                    <View
+                        android:layout_width="fill_parent"
+                        android:background="@android:color/darker_gray"
+                        android:layout_height="2dp" />
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp">
+                            <TableRow
+                                android:layout_weight="3"
+                                android:id="@+id/row12"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="2.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="Drink"
+                                    android:layout_margin="2dp"
+                                    android:textSize="17sp"
+                                    android:fontFamily="sans-serif"
+                                    tools:targetApi="jelly_bean" />
+                                <TextView
+                                    android:layout_weight="0.2"
+                                    android:layout_height="wrap_content"
+                                    android:text="NGN"
+                                    android:textSize="17sp"/>
+                                <TextView
+                                    android:layout_weight="0.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="500"
+                                    android:textSize="17sp"/>
+
+                            </TableRow>
+                            <TableRow
+                                android:layout_weight="3"
+                                android:id="@+id/row22"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="2.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="Drink"
+                                    android:textSize="17sp"
+                                    android:layout_margin="2dp"
+                                    android:fontFamily="sans-serif"
+                                    tools:targetApi="jelly_bean" />
+                                <TextView
+                                    android:layout_weight="0.2"
+                                    android:layout_height="wrap_content"
+                                    android:text="NGN"
+                                    android:textSize="17sp"/>
+                                <TextView
+                                    android:layout_weight="0.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="500"
+                                    android:textSize="17sp"/>
+
+                            </TableRow>
+                            <TableRow
+                                android:layout_weight="3"
+                                android:id="@+id/row32"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="2.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="Drink"
+                                    android:layout_margin="2dp"
+                                    android:textSize="17sp"
+                                    android:fontFamily="sans-serif"
+                                    tools:targetApi="jelly_bean" />
+                                <TextView
+                                    android:layout_weight="0.2"
+                                    android:layout_height="wrap_content"
+                                    android:text="NGN"
+                                    android:textSize="17sp"/>
+                                <TextView
+                                    android:layout_weight="0.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="500"
+                                    android:textSize="17sp"/>
+
+                            </TableRow>
+
+                        </TableLayout>
+                    </ScrollView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="8dp"
+                app:contentPaddingTop="10dp"
+                app:contentPaddingBottom="10dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Food"
+                        android:textSize="23sp"
+                        android:textColor="@color/phoneColor"
+                        android:drawableLeft="@drawable/ic_restaurant_24dp"
+                        android:drawablePadding="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="serif"
+                        tools:targetApi="jelly_bean" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Monday, 12/06/18"
+                        android:layout_marginLeft="10dp" />
+                    <View
+                        android:layout_width="fill_parent"
+                        android:background="@android:color/darker_gray"
+                        android:layout_height="2dp" />
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp">
+                            <TableRow
+                                android:layout_weight="3"
+                                android:id="@+id/row13"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="2.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="Drink"
+                                    android:layout_margin="2dp"
+                                    android:textSize="17sp"
+                                    android:fontFamily="sans-serif"
+                                    tools:targetApi="jelly_bean" />
+                                <TextView
+                                    android:layout_weight="0.2"
+                                    android:layout_height="wrap_content"
+                                    android:text="NGN"
+                                    android:textSize="17sp"/>
+                                <TextView
+                                    android:layout_weight="0.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="500"
+                                    android:textSize="17sp"/>
+
+                            </TableRow>
+                            <TableRow
+                                android:layout_weight="3"
+                                android:id="@+id/row23"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="2.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="Drink"
+                                    android:textSize="17sp"
+                                    android:layout_margin="2dp"
+                                    android:fontFamily="sans-serif"
+                                    tools:targetApi="jelly_bean" />
+                                <TextView
+                                    android:layout_weight="0.2"
+                                    android:layout_height="wrap_content"
+                                    android:text="NGN"
+                                    android:textSize="17sp"/>
+                                <TextView
+                                    android:layout_weight="0.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="500"
+                                    android:textSize="17sp"/>
+
+                            </TableRow>
+                            <TableRow
+                                android:layout_weight="3"
+                                android:id="@+id/row33"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="2.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="Drink"
+                                    android:layout_margin="2dp"
+                                    android:textSize="17sp"
+                                    android:fontFamily="sans-serif"
+                                    tools:targetApi="jelly_bean" />
+                                <TextView
+                                    android:layout_weight="0.2"
+                                    android:layout_height="wrap_content"
+                                    android:text="NGN"
+                                    android:textSize="17sp"/>
+                                <TextView
+                                    android:layout_weight="0.8"
+                                    android:layout_height="wrap_content"
+                                    android:text="500"
+                                    android:textSize="17sp"/>
+
+                            </TableRow>
+
+                        </TableLayout>
+                    </ScrollView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="520dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="16sp"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/text_total"
+                android:textColor="@color/colorAccent"
+                android:text="@string/the_total_amount_spent_today_is"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="520dp"
+                android:text="@string/_1_200"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="45dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:id="@+id/total_amount_spent_daily"
+                android:layout_marginBottom="15dp"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
